@@ -1,0 +1,46 @@
+# Antigravity & AI Brain artifacts
+.gemini/
+brain/
+.system_generated/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.venv/
+
+# Secret config
+config.json
+
+# Caches and Temporary Render Files
+.scene_cache/
+.tiktok_cache/
+*.ts
+*.raw
+framed_*.png
+temp_*/
+
+# Large Media & Project workspaces
+Projects/
+voice_audition/
+voice_samples/
+formatted/
+input/
+output/
+assets/*.webm
+assets/*.mp4
+assets/*.wav
+assets/ch07_base_frame.jpg
+assets/clean_raw_frame.png
+assets/test_*.png
+
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp

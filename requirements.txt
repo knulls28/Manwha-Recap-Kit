@@ -1,0 +1,10 @@
+# Core Image & Video Processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Free Voiceover Synthesis
+edge-tts>=6.1.0
+
+# Optional API integrations (ElevenLabs / Groq)
+requests>=2.28.0
+aiofiles>=23.1.0

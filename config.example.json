@@ -1,0 +1,102 @@
+{
+  "tts": {
+    "engine": "edge",
+    "elevenlabs": {
+      "api_key": "PASTE_YOUR_ELEVENLABS_API_KEY_HERE",
+      "model_id": "eleven_multilingual_v2",
+      "default_voice": "adam",
+      "voices": {
+        "adam": "pNInz6obpgDQGcFmaJgB",
+        "antoni": "ErXwobaYiN019PkySvjV",
+        "josh": "TxGEqnHWrfWFTfGW9XjX",
+        "marcus": "Idhz5GohP4eB3o94cZ3q",
+        "george": "JBFqnCBsd6RMkjVDRZzb",
+        "callum": "N2lVS1w4EtoT3dr4eOWO",
+        "rachel": "21m00Tcm4TlvDq8ikWAM",
+        "bella": "EXAVITQu4vr4xnSDxMaL",
+        "charlie": "IKne3meq5aSn9XLyUdCD"
+      },
+      "stability": 0.5,
+      "similarity_boost": 0.75
+    },
+    "edge": {
+      "default_voice": "en-US-BrianNeural",
+      "rate": "+15%",
+      "pitch": "+0Hz"
+    },
+    "groq": {
+      "api_key": "PASTE_YOUR_GROQ_API_KEY_HERE",
+      "tts_model": "canopylabs/orpheus-v1-english",
+      "whisper_model": "whisper-large-v3-turbo",
+      "default_voice": "daniel"
+    }
+  },
+  "watermark": {
+    "text": "Nulls Recap",
+    "enabled": true,
+    "badge_image": "assets/nulls_crest_transparent.png",
+    "badge_width": 320,
+    "badge_y": 1020,
+    "opacity": 0.78,
+    "font_file": "assets/fonts/SourceSansPro-Bold.ttf",
+    "font_size": 28,
+    "font_color": "white@0.45"
+  },
+  "video": {
+    "default_preset": "shorts",
+    "formats": {
+      "shorts": {
+        "width": 1080,
+        "height": 1920,
+        "aspect": "9:16",
+        "font_size": 74,
+        "margin_v": 480,
+        "outline_width": 7
+      },
+      "youtube": {
+        "width": 1920,
+        "height": 1080,
+        "aspect": "16:9",
+        "font_size": 48,
+        "margin_v": 100,
+        "outline_width": 4
+      },
+      "tiktok": {
+        "width": 1080,
+        "height": 1920,
+        "aspect": "9:16",
+        "font_size": 74,
+        "margin_v": 480,
+        "outline_width": 7
+      }
+    },
+    "fps": 30,
+    "panel_min_seconds": 2.0,
+    "panel_max_seconds": 4.5,
+    "motion": {
+      "enabled": true,
+      "zoom_ratio": 1.07
+    },
+    "background_blur": {
+      "enabled": true,
+      "blur_radius": 25,
+      "darken_factor": 0.55
+    }
+  },
+  "audio": {
+    "voice_volume": 1.0,
+    "bgm_volume": 0.15,
+    "bgm_fade_in": 0.8,
+    "bgm_fade_out": 2.0
+  },
+  "subtitles": {
+    "burn": true,
+    "uppercase": true,
+    "words_per_cue": 3,
+    "font_name": "Anton",
+    "font_dir": "assets/fonts",
+    "primary_color": "&H00FF3BE0",
+    "outline_color": "&H00000000",
+    "alignment": 2
+  }
+}
